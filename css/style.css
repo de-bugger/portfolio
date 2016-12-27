@@ -1,0 +1,71 @@
+body{
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+}
+.container{
+    padding-top: 70px;
+}
+hr{
+    display: block;
+    margin-top: 0.5em;
+    border-width: 5px;
+}
+.profile{
+    padding-right: 20px;
+    text-align: right;
+}
+
+.logo{
+    margin-bottom: 15px;
+    margin-left: 20px;
+    max-width: 100px;
+    max-height: 100px;
+}
+.name{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.post{
+    margin-top: 4px;
+    margin-bottom: 20px;
+    font-weight: 20px;
+}
+
+@media only screen and (max-width: 400px){
+    .logo{
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100px;
+    max-height: 100px;
+    }
+    .profile{
+    padding-right: 20px;
+    text-align: center;
+    }
+}
+
+.text-thin{
+    font-weight: 100;
+    font-size: 60px;
+}
+.featured-work{
+    color: #bcbbbb;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.proj1{
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.proj2{
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.proj3{
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
